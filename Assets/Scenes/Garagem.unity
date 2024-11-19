@@ -180,7 +180,10 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6440028369003707207, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1021947570}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5149182369378240403, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1280413355}
   m_SourcePrefab: {fileID: 100100000, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
 --- !u!4 &4198912 stripped
 Transform:
@@ -2848,7 +2851,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 151a788721ef556459efefd144f1550e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2906,7 +2909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRange: 100
-  speed: 10
+  speed: 100
   playerCamera: {fileID: 1114545070}
   fieldOfView: 60
 --- !u!54 &1190534319
@@ -3172,6 +3175,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1280413352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149182369378240403, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
+  m_PrefabInstance: {fileID: 4198911}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280413355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280413352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3aff9429e9c55458a5aba7964d866d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Derrota
 --- !u!1001 &1351121649
 PrefabInstance:
   m_ObjectHideFlags: 0
