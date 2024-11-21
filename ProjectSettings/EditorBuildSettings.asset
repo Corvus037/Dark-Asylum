@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Derrota.unity
     guid: 34c34297595a4e943ac0a7c8dee21f51
+  - enabled: 1
+    path: Assets/Scenes/Asilo.unity
+    guid: e56ccdb92efb18942b5f2e8e1e043d3e
   m_configObjects: {}
