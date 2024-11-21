@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fim.unity
     guid: 056f48e67c8dda74da4a1771e0dd2663
+  - enabled: 1
+    path: Assets/Scenes/FimAlt.unity
+    guid: 5ef9edded5d148448999667b76620f4d
+  - enabled: 1
+    path: Assets/Scenes/Derrota.unity
+    guid: 34c34297595a4e943ac0a7c8dee21f51
   m_configObjects: {}
