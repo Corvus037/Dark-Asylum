@@ -7298,6 +7298,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 964955e34d8154e46acf04c0eb8e211d, type: 3}
+--- !u!1 &392381592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149182369378240403, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
+  m_PrefabInstance: {fileID: 4686071620392986509}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &399381995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19869,13 +19874,29 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6440028369003707207, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
       insertIndex: 0
       addedObject: {fileID: 802886909}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5149182369378240403, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4686071620392986511}
   m_SourcePrefab: {fileID: 100100000, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
 --- !u!4 &4686071620392986510 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6440028369003707207, guid: 428a2e7ec5882814e94c2d7610eadd05, type: 3}
   m_PrefabInstance: {fileID: 4686071620392986509}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4686071620392986511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392381592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c29c8734e2a0744ba9f0c89b538af06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: Asilo
 --- !u!1001 &5876418034512549320
 PrefabInstance:
   m_ObjectHideFlags: 0

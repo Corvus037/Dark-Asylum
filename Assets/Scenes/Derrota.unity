@@ -1027,7 +1027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94853f066e1ebf941a27998eb4684fb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: TerceiroAndar
+  sceneName: PrimeiroAndar
 --- !u!1 &1718767093
 GameObject:
   m_ObjectHideFlags: 0
